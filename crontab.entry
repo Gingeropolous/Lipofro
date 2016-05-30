@@ -1,0 +1,8 @@
+#This will run it every minute. (change the directory)
+*/1 * * * * /home/gbone/moneroworld/newpage.sh
+
+
+#add this to the end of your crontab (with modified directories of course) to get an error output if you need it. 
+
+>/home/gbone/moneroworld/postdata.out 2>&1
+

@@ -1,0 +1,53 @@
+<h3>Mining Apps</h3>
+<h4>I've removed the links to clearnet. If you want to see the original links, please visit any Monero mining pool on clearnet, such as monerohash.com</h4>
+<div class="yourStats table-responsive">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>App Name</th>
+            <th>Architecture</th>
+            <th>Windows Downloads</th>
+            <th>Linux Downloads</th>
+        </tr>
+        </thead>
+        <tbody id="mining_apps">
+        <tr>
+            <td class="miningAppTitle">CPUMiner (forked by LucasJones & Wolf)</td>
+            <td>CPU</td>
+            <td><a href="//miners/minerd-wolf-07-09-14.exe">Windows Binary</a></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <span>Example:</span>
+                <code>minerd -a cryptonight -o stratum+tcp://127.0.0.1:5555 -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
+            </td>
+        </tr>
+        <tr>
+            <td class="miningAppTitle">ccminer (forked by tsiv, forked by hyc)</td>
+            <td>CUDA (Nvidia)</td>
+            <td><a href="//miners/ccminer-cryptonight_20140926.zip">Binary</a></td>
+            <td><a href="//miners/ccminer_9e_.tar.xz">Binary and Source</a></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <span>Example:</span>
+                <code>ccminer -o stratum+tcp://127.0.0.1:5555 -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
+            </td>
+        </tr>
+        <tr>
+            <td class="miningAppTitle">Wolf AMD miner (forked by hyc)</td>
+            <td>OpenCL (AMD)</td>
+            <td><a href="//miners/wolf-xmr-miner-0.3b.zip">Binary</a></td>
+            <td><a href="//miners/wolfamdminer.tar.xz">Binary and Source</a></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <span>Example:</span>
+                <code>./miner pool.conf</code>
+                You will need to edit the pool.conf file. Put your address and mining port, and change rawintensity to modify GPU load, and in index -1, modify threads$
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
