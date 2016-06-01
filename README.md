@@ -1,5 +1,5 @@
 # Lipofro
-An extremely light front end for the existing Monero Nodejs pool software. 
+An extremely lite front end for the existing Monero Nodejs pool software. 
 
 Lipofro = LIte POol FROnt
 
